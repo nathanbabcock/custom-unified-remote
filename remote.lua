@@ -9,13 +9,13 @@ local keyboard = libs.keyboard;
 
 
 --@help Move Window left
-actions.moveWindowLeft = function ()
+actions.move_window_left = function ()
 	keyboard.stroke("win", "shift", "left");
 end
 
 
 --@help Move Window right
-actions.moveWindowRight = function ()
+actions.move_window_right = function ()
 	keyboard.stroke("win", "shift", "right");
 end
 

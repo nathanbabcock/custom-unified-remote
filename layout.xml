@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onVolumeUp="volume_up" onVolumeDown="volume_down" color="#0383DC">
+	<row>
+		<button text="Move Window Left" ontap="move_window_left" />
+	</row>
+	<row>
+		<button text="Move Window Right" ontap="move_window_right" />
+	</row>
+</layout>
